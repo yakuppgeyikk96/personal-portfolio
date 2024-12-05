@@ -47,6 +47,61 @@ export const translations = {
         title: "Temel Teknolojiler",
       },
     },
+    projects: {
+      title: "Projelerim",
+      description: "Son dönemde geliştirdiğim öne çıkan projelerden bazıları.",
+      status: {
+        completed: "Tamamlandı",
+        inProgress: "Devam Ediyor",
+      },
+      portfolioProject: {
+        description:
+          "Kişisel portföy web sitesi projesi. Kendimi tanıtmak ve projelerimi sergilemek için oluşturduğum bir web sitesi.",
+      },
+      adminDashboard: {
+        description:
+          "Genel kullanım için bir template olarak tasarlanmış, modern ve kullanıcı dostu bir yönetici paneli.",
+      },
+      cygnusWallet: {
+        description:
+          "Superteam TalentOlympics yarışmasında geliştirilen, Solana blockchain tabanlı basit bir kripto cüzdan uygulaması.",
+      },
+    },
+    contact: {
+      title: "İletişime Geç",
+      description:
+        "Herhangi bir soru veya öneriniz için benimle iletişime geçebilirsiniz.",
+      email: {
+        title: "Email",
+      },
+      phone: {
+        title: "Telefon",
+      },
+      location: {
+        title: "Konum",
+      },
+      form: {
+        name: "İsim",
+        email: "Email",
+        subject: "Konu",
+        message: "Mesaj",
+        submit: "Gönder",
+        submitting: "Gönderiliyor...",
+        errors: {
+          nameMin: "İsim en az 2 karakter olmalıdır",
+          nameMax: "İsim en fazla 50 karakter olmalıdır",
+          emailInvalid: "Geçerli bir email adresi giriniz",
+          subjectMin: "Konu en az 3 karakter olmalıdır",
+          subjectMax: "Konu en fazla 100 karakter olmalıdır",
+          messageMin: "Mesaj en az 10 karakter olmalıdır",
+          messageMax: "Mesaj en fazla 1000 karakter olmalıdır",
+        },
+      },
+    },
+    common: {
+      contactMe: "İletişime Geç",
+      downloadCV: "CV İndir",
+    },
   },
   en: {
     nav: {
@@ -95,6 +150,60 @@ export const translations = {
       techStack: {
         title: "Core Technologies",
       },
+    },
+    projects: {
+      title: "My Projects",
+      description: "Here are some of my recent featured projects.",
+      status: {
+        completed: "Completed",
+        inProgress: "In Progress",
+      },
+      portfolioProject: {
+        description:
+          "Personal portfolio website project. A website I created to introduce myself and showcase my projects.",
+      },
+      adminDashboard: {
+        description:
+          "A modern and user-friendly admin panel designed as a template for general use.",
+      },
+      cygnusWallet: {
+        description:
+          "A simple Solana blockchain-based crypto wallet application developed for the Superteam TalentOlympics competition.",
+      },
+    },
+    contact: {
+      title: "Get in Touch",
+      description: "Feel free to contact me for any questions or suggestions.",
+      email: {
+        title: "Email",
+      },
+      phone: {
+        title: "Phone",
+      },
+      location: {
+        title: "Location",
+      },
+      form: {
+        name: "Name",
+        email: "Email",
+        subject: "Subject",
+        message: "Message",
+        submit: "Send Message",
+        submitting: "Sending...",
+        errors: {
+          nameMin: "Name must be at least 2 characters",
+          nameMax: "Name must be at most 50 characters",
+          emailInvalid: "Please enter a valid email address",
+          subjectMin: "Subject must be at least 3 characters",
+          subjectMax: "Subject must be at most 100 characters",
+          messageMin: "Message must be at least 10 characters",
+          messageMax: "Message must be at most 1000 characters",
+        },
+      },
+    },
+    common: {
+      contactMe: "Contact Me",
+      downloadCV: "Download CV",
     },
   },
 };

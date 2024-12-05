@@ -1,5 +1,7 @@
+import { LucideIcon } from "lucide-react";
+
 export interface INavItem {
   name: string;
-  icon: JSX.Element;
+  icon: LucideIcon;
   href: string;
 }
