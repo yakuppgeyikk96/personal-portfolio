@@ -13,6 +13,8 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, setIsOpen }) => {
   const { t } = useLanguage();
   const activeSection = useActiveSection();
 
+  console.log("Mobile menu");
+
   const handleClick = (href: string) => (e: React.MouseEvent) => {
     e.preventDefault();
     scrollToSection(href);

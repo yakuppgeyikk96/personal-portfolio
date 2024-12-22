@@ -1,4 +1,3 @@
-// components/contact/contact-form.tsx
 import React from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -9,18 +8,31 @@ interface ContactFormProps {
   onSubmit: (data: ContactFormData) => void;
 }
 
-const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
+const ContactForm: React.FC<ContactFormProps> = () => {
   const { t } = useLanguage();
   const {
     register,
-    handleSubmit,
     formState: { errors, isSubmitting },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
   });
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+    <form
+      action="https://formsubmit.co/yakuppgeyik@gmail.com"
+      method="POST"
+      className="space-y-6"
+    >
+      <input type="hidden" name="_next" value="https://yakupgeyik.com" />
+      <input
+        type="hidden"
+        name="_subject"
+        value="New Contact Form Submission!"
+      />
+      <input type="text" name="_honey" style={{ display: "none" }} />
+      <input type="hidden" name="_template" value="table" />
+      <input type="hidden" name="_captcha" value="true" />
+
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
           <label

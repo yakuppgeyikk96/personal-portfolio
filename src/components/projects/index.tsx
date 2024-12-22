@@ -47,7 +47,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="py-20 relative" id="projects">
+    <section className="py-20 relative overflow-hidden" id="projects">
       {/* Gradient efektleri */}
       <div className="absolute -left-1/4 top-0 w-1/2 h-full bg-gradient-to-r from-purple-500/10 to-transparent" />
       <div className="absolute -right-1/4 top-0 w-1/2 h-full bg-gradient-to-l from-purple-500/10 to-transparent" />
