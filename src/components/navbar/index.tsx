@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <nav className="fixed z-50">
+    <nav className="fixed w-full z-50">
       {/* Gradient background with blur effect */}
       <div className="absolute inset-0 bg-gradient-to-r from-dark-800 via-dark-900 to-dark-800 backdrop-blur-md shadow-lg" />
 
